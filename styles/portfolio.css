@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
 }
 .link {
   text-decoration: none;
@@ -16,10 +17,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: #2196f3;
 }
 .header-nav-logo-head {
-  color: #2196f3;
+  color: #000000;
 }
 .header-nav-list {
   font-weight: 500;
@@ -66,7 +67,7 @@ body {
   background: #2196f3;
   color: #ffffff;
 }
-.menu-list-all {
+.menu-list-all-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.86;
@@ -74,7 +75,7 @@ body {
   color: #212121;
   cursor: pointer;
 }
-.menu-list-website {
+.menu-list-website-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.86;
@@ -82,7 +83,7 @@ body {
   color: #212121;
   cursor: pointer;
 }
-.menu-list-app {
+.menu-list-app-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.86;
@@ -90,7 +91,7 @@ body {
   color: #212121;
   cursor: pointer;
 }
-.menu-list-design {
+.menu-list-design-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.86;
@@ -99,7 +100,7 @@ body {
   cursor: pointer;
 }
 
-.menu-list-marketing {
+.menu-list-marketing-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.86;
@@ -141,6 +142,7 @@ body {
   color: #2196f3;
 }
 .footer-contakts-address {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -148,6 +150,7 @@ body {
   color: #ffffff;
 }
 .footer-contakts-mail {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -155,6 +158,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-contakts-tel {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
