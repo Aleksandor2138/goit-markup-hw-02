@@ -1,6 +1,10 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  color: #000000;
+}
+:root {
+  --section-color: #2f303a;
 }
 .link {
   text-decoration: none;
@@ -10,9 +14,12 @@ body {
 }
 .header {
   background-color: #ffffff;
+  --color-text-header: #212121;
+  --color-text-contact: #757575;
 }
 .header-nav-logo {
   font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -36,7 +43,7 @@ body {
 .header-nav-list-st,
 .header-nav-list-port,
 .header-nav-list-cont {
-  color: #212121;
+  color: var(--color-text-header);
 }
 
 .header-contaсt {
@@ -52,7 +59,7 @@ body {
 }
 .header-contaсt-mail,
 .header-contaсt-tel {
-  color: #757575;
+  color: var(--color-text-contact);
 }
 .menu-list-all :hover,
 .menu-list-website :hover,
@@ -67,6 +74,9 @@ body {
   background: #2196f3;
   color: #ffffff;
 }
+.menu-list {
+  --text-color: #212121;
+}
 .menu-list-all-button {
   font-family: "Roboto";
   font-style: normal;
@@ -74,7 +84,7 @@ body {
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
   cursor: pointer;
 }
 .menu-list-website-button {
@@ -84,7 +94,7 @@ body {
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
   cursor: pointer;
 }
 .menu-list-app-button {
@@ -94,7 +104,7 @@ body {
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
   cursor: pointer;
 }
 .menu-list-design-button {
@@ -104,7 +114,7 @@ body {
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
   cursor: pointer;
 }
 
@@ -115,7 +125,7 @@ body {
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--text-color);
   cursor: pointer;
 }
 .portfolio-list-header {
@@ -126,14 +136,13 @@ body {
   color: #212121;
 }
 .portfolio-list-paragraph {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
   color: #757575;
 }
 .footer {
-  background: #2f303a;
+  background: var(--section-color);
 }
 .footer-logo {
   font-family: "Raleway";
@@ -153,7 +162,6 @@ body {
 }
 .footer-contakts-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -161,7 +169,6 @@ body {
 }
 .footer-contakts-mail {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -169,7 +176,6 @@ body {
 }
 .footer-contakts-tel {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;

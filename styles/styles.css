@@ -1,18 +1,25 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  color: #000000;
 }
-.link {
+var .link {
   text-decoration: none;
+}
+:root {
+  --section-color: #2f303a;
 }
 .list {
   list-style: none;
 }
 .header {
   background-color: #ffffff;
+  --color-text-header: #212121;
+  --color-text-contact: #757575;
 }
 .header-nav-logo {
   font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -36,7 +43,7 @@ body {
 .header-nav-list-st,
 .header-nav-list-port,
 .header-nav-list-cont {
-  color: #212121;
+  color: var(--color-text-header);
 }
 
 .header-contaсt {
@@ -52,10 +59,10 @@ body {
 }
 .header-contaсt-mail,
 .header-contaсt-tel {
-  color: #757575;
+  color: var(--color-text-contact);
 }
 .main-section-header {
-  background-color: #2f303a;
+  background-color: var(--section-color);
 }
 .main-section-header-motto {
   font-weight: 900;
@@ -94,7 +101,6 @@ body {
   color: #212121;
 }
 .soft-skils-paragraph {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -128,7 +134,6 @@ body {
   color: #212121;
 }
 .our-team-paragraph {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -175,7 +180,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .footer {
-  background: #2f303a;
+  background: var(--section-color);
 }
 .footer-logo {
   font-family: "Raleway";
@@ -195,7 +200,6 @@ body {
 }
 .footer-contakts-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -203,7 +207,6 @@ body {
 }
 .footer-contakts-mail {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -211,7 +214,6 @@ body {
 }
 .footer-contakts-tel {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
