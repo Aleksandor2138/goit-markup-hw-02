@@ -3,11 +3,11 @@ body {
   font-style: normal;
   color: #000000;
 }
-.link {
-  text-decoration: none;
-}
 :root {
   --section-color: #2f303a;
+}
+.link {
+  text-decoration: none;
 }
 .list {
   list-style: none;
